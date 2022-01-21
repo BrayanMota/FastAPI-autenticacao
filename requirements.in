@@ -1,0 +1,24 @@
+#API
+fastapi==0.69.0
+#Servidor
+uvicorn[standard]
+#Conexão com o Banco
+SQLAlchemy
+#Criptografia
+python-jose[cryptography]
+passlib[bcrypt]
+scanapi
+python-multipart
+wheel
+mongoengine
+sphinx
+sphinx_rtd_theme
+python-decouple
+
+#psycopg2 has 1 requirement
+psycopg2-binary
+psycopg2
+
+#scanapi 2.6.0 has 2 requirements
+click==7.1.2
+pyyaml==5.4
